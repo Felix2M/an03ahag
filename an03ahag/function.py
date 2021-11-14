@@ -4,14 +4,14 @@
 # In[6]:
 
 
-import numpy as np
+import numpy
 from ipywidgets import interact, fixed
 from PIL import Image
 
-#img = np.random.randint(0, 255, (256, 256, 3)) #enter your picture as an array
+#img = numpy.random.randint(0, 255, (256, 256, 3)) #enter your picture as an array
 
 def imshow(X, resize=None):
-    img = Image.fromarray(np.uint8(X))
+    img = Image.fromarray(numpy.uint8(X))
     img = img.resize(resize)
     return img
     
