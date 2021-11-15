@@ -8,7 +8,6 @@ import numpy as np
 from ipywidgets import interact, fixed
 from PIL import Image
 
-pip install -r requirements.txt
 #img = np.random.randint(0, 255, (256, 256, 3)) #enter your picture as an array
 
 def imshow(X, resize=None):

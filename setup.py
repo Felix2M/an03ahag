@@ -11,5 +11,5 @@ setup(name='an03ahag',
       author='DSSS',
       author_email='felix.mutter@fau.de',
       packages=find_packages(),
-      install_requires=["numpy", "Pillow", "ipywidgets"])
+      install_requires=['numpy', 'Pillow', 'ipywidgets'])
 
