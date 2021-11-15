@@ -4,5 +4,5 @@
 # In[ ]:
 
 
-from an03ahag.function import *
+from .function import *
 
